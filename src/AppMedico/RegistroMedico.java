@@ -1,9 +1,10 @@
 package AppMedico;
 import javax.swing.*;
 import java.awt.*;
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class RegistroMedico {
+public class RegistroMedico implements Serializable {
     private ArrayList<Usuario> usuarios;
     private ArrayList<Especialidad> especialidades;
 

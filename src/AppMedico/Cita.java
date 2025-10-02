@@ -1,11 +1,12 @@
 package AppMedico;
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 
-public class Cita {
+public class Cita implements Serializable {
     private Paciente paciente;
     private Medico medico;
     private String fecha;

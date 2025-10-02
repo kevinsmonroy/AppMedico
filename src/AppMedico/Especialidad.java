@@ -1,6 +1,8 @@
 package AppMedico;
 
-public enum Especialidad {
+import java.io.Serializable;
+
+public enum Especialidad implements Serializable {
     CARDIOLOGIA("Cardiología"),
     PEDIATRIA("Pediatría"),
     NEUROLOGIA("Neurología"),

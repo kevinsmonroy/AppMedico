@@ -2,9 +2,11 @@ package AppMedico;
 
 import jakarta.mail.*;
 import jakarta.mail.internet.*;
+
+import java.io.Serializable;
 import java.util.Properties;
 
-public class CorreoService {
+public class CorreoService implements Serializable {
     private final String remitente = "tu_correo@gmail.com";  // tu Gmail
     private final String clave = "TU_CONTRASEÑA_DE_APP";     // contraseña de aplicación
 

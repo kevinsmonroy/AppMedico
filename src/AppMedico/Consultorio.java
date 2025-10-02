@@ -1,6 +1,8 @@
 package AppMedico;
 
-public class Consultorio {
+import java.io.Serializable;
+
+public class Consultorio implements Serializable {
     private int numero;
     private int piso;
 

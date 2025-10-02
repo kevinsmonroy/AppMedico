@@ -1,6 +1,8 @@
 package AppMedico;
 
-public abstract class Usuario {
+import java.io.Serializable;
+
+public abstract class Usuario implements Serializable {
     private String cedula;
     private String nombre;
     private String apellido;

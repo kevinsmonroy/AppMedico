@@ -1,6 +1,8 @@
 package AppMedico;
 
-public class Paciente extends Usuario {
+import java.io.Serializable;
+
+public class Paciente extends Usuario  implements Serializable {
     private String eps;
 
     public Paciente(String cedula, String nombre, String apellido, String telefono,

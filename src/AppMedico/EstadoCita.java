@@ -1,6 +1,8 @@
 package AppMedico;
 
-public enum EstadoCita {
+import java.io.Serializable;
+
+public enum EstadoCita implements Serializable {
     PENDIENTE,
     ATENDIDA,
     CANCELADA,

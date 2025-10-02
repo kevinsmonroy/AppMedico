@@ -1,12 +1,13 @@
 package AppMedico;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
 
-public class Medico extends Usuario {
+public class Medico extends Usuario  implements Serializable {
     private Especialidad especialidad;
     private List<Cita> agenda; // lista de citas asignadas al médico
 

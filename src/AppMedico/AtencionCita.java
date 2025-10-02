@@ -2,8 +2,9 @@ package AppMedico;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.Serializable;
 
-public class AtencionCita extends JFrame {
+public class AtencionCita extends JFrame  implements Serializable {
     private Medico medico;
     private Cita cita;
 

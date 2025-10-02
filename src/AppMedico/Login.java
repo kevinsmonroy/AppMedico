@@ -2,9 +2,10 @@ package AppMedico;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.Serializable;
 import java.util.List;
 
-public class Login extends JFrame {
+public class Login extends JFrame implements Serializable {
     private JTextField txtUsuario;
     private JPasswordField txtContrasena;
     private final List<Usuario> usuarios;

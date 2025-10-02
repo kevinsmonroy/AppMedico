@@ -3,9 +3,10 @@ package AppMedico;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.Serializable;
 import java.text.SimpleDateFormat;
 
-public class ResumenDiario extends JFrame {
+public class ResumenDiario extends JFrame implements Serializable {
     private Medico medico;
     private GestorCitas gestor;
     private JTextArea area;

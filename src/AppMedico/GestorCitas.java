@@ -1,5 +1,6 @@
 package AppMedico;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.time.LocalTime;
@@ -8,7 +9,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.LocalDate;
 
 
-public class GestorCitas {
+public class GestorCitas implements Serializable {
     private List<Cita> citas;
 
     public GestorCitas() {
